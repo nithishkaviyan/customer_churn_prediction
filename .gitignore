@@ -1,2 +1,8 @@
 ## Ignore data folder
 **/data
+
+## Ignore saved_models folder
+**/saved_models
+
+## Ignore DS file
+**/.DS_Store
