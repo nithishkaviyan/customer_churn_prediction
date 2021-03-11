@@ -42,6 +42,7 @@ train_df = spark.read.format("csv") \
            .option("sep", ",") \
            .load(str(data_folder.joinpath("train.csv")))
 
+
 # Modelling dataset preparation
 
 # In transaction data, select only customers in train data
@@ -101,6 +102,7 @@ user_logs_df = user_logs_df.groupBy("msno") \
                     count("num_25").alias("number_of_days_used"))
 
 print("Processed last 30 day user logs")
+
 
 # Join all processed dfs with training data
 model_dataset = train_df.join(members_df, on="msno", how="left") \
