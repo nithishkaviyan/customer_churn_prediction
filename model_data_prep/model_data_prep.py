@@ -1,3 +1,7 @@
+"""
+    This script contains code to create modelling dataset
+"""
+
 # Load required packages
 from pathlib import Path
 from pyspark.sql.types import *

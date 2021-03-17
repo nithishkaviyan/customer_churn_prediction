@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/nithishkaviyan/Desktop/data_science_projects/customer_churn_prediction/modelling/mlruns/0/35d011488f3740f887f71d54290d7dfe/artifacts
+end_time: 1615953122033
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 35d011488f3740f887f71d54290d7dfe
+run_uuid: 35d011488f3740f887f71d54290d7dfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1615953073580
+status: 3
+tags: []
+user_id: nithishkaviyan
